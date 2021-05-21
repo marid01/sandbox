@@ -28,7 +28,6 @@
 //---------------------------------------
 
 
-
 // const areaOrPerimeter = function(l , w) {
 //     let b = 2 * (l + w);
 //     let a = b.toFixed(0);
@@ -38,15 +37,41 @@
 
 // console.log(areaOrPerimeter());
 
+//---------------------------------------
 
 
-function generateRange(min, max, step) {
-    const result = [];
-    for (let i = min; i <= max; i += step) {
-        result.push(i)
-    }
-    return result
+// function generateRange(min, max, step) {
+//     const result = [];
+//     for (let i = min; i <= max; i += step) {
+//         result.push(i)
+//     }
+//     return result
+// }
+//
+//
+// console.log(generateRange(2, 10, 2));
+
+//---------------------------------------
+
+// function sumStr(a, b) {
+//     let x = a;
+//     let y = b;
+//
+//     return (Number(x) + Number(y)).toString()
+// }
+//
+// console.log(sumStr("5", "7"))
+
+//---------------------------------------
+
+
+let s = "Hello World!"
+function removeExclamationMarks(s) {
+    return s.replace(/!/g,'');
 }
 
+console.log(removeExclamationMarks(s));
 
-console.log(generateRange(2, 10, 2));
+
+
+//---------------------------------------
