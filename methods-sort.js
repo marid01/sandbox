@@ -85,3 +85,6 @@ let students = [
 // console.log(students.sort((a, b) => a.age - b.age).reverse)
 
 console.log(students.sort((a, b) => a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1))
+
+
+
