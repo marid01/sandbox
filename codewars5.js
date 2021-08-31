@@ -27,23 +27,10 @@
 
 ///////--------------------------------------
 
+
 // function ensureQuestion(s) {
-//     let arr = s.split('');
-//         if (arr[arr.length - 1] === '?' ) {
-//             return arr.join('')
-//         } else {
-//             return  arr[arr.length - 1].push('?').join('')
-//         }
+//     return s.split('?').join('').concat('?')
 // }
-// console.log(ensureQuestion('abcd'));
 
-let str = 'abcde';
-let arr = str.split('')
-// console.log(arr)
-// console.log(arr[arr.length-1])
-if (arr[arr.length - 1] !== '?') {
-    debugger
-    let arr1 = arr.push('?')
-        console.log(arr1)
 
-}
+///////--------------------------------------
