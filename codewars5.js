@@ -34,3 +34,13 @@
 
 
 ///////--------------------------------------
+
+
+// function arrayDiff(a, b) {
+//     let difference = a.filter(x => !b.includes(x));
+//     return difference;
+// }
+//
+// console.log(arrayDiff([3,4], [3]));
+
+///////--------------------------------------
